@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.recipt-container{
+    width: 600px;
+    height: 830px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px ;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.p-10{
+    padding: 10px;
+}
+.f-20{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    color: rgb(252, 248, 248);
+    font-size: 10px;
+}
+.total-amount{
+    color: red;
+    font-size: 25px;
+}
+.text-end{
+    text-align:right;
+}
+.d-flex-betwen{
+    display: flex;
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .recipt-container{
+    width: 300px;
+    height: 830px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px ;
+}
+}
